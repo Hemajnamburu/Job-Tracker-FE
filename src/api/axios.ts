@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://job-tracker-be-veuh.onrender.com/",
 });
 
 api.interceptors.response.use(
